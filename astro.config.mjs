@@ -2,7 +2,7 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://izzydoesizzy.github.io",
+  site: "https://martinlapc.github.io",
   base: "/leigh-ann-services/",
   // Old preview URLs, kept working after the Teal & Clay theme became the main site.
   redirects: {
