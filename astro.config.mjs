@@ -2,11 +2,11 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://martinlapc.github.io",
-  base: "/leigh-ann-services/",
+  site: "https://services.leighannmartin.com",
+  base: "/",
   // Old preview URLs, kept working after the Teal & Clay theme became the main site.
   redirects: {
-    "/new": "/leigh-ann-services/",
-    "/new/capability-brief": "/leigh-ann-services/capability-brief/",
+    "/new": "/",
+    "/new/capability-brief": "/capability-brief/",
   },
 });

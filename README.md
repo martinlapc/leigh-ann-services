@@ -2,9 +2,9 @@
 
 Astro + Tailwind static site, deployed to GitHub Pages on every push to `main`.
 
-**Live base URL:** https://martinlapc.github.io/leigh-ann-services/
-**Start here (for Leigh-Ann):** https://martinlapc.github.io/leigh-ann-services/review
-**Page directory (in the browser):** https://martinlapc.github.io/leigh-ann-services/archive
+**Live base URL:** https://services.leighannmartin.com/
+**Start here (for Leigh-Ann):** https://services.leighannmartin.com/review
+**Page directory (in the browser):** https://services.leighannmartin.com/archive
 **Intake form (every Book a call button):** https://docs.google.com/forms/d/1NiMiUdhcx3ph5VCF6yI_nZJgvUZbihtdkXCPmrCju1E/viewform
 **Contact email used on every page:** info@leighannmartin.com
 
@@ -18,7 +18,7 @@ The simplified one-page site, built in October 2026 from Leigh-Ann's outline: he
 
 | | |
 |---|---|
-| **Live** | https://martinlapc.github.io/leigh-ann-services/ |
+| **Live** | https://services.leighannmartin.com/ |
 | **Source** | `src/pages/index.astro` |
 | **Theme** | Teal & Clay: ivory, sage colour block, teal accent, one clay flourish. Fraunces + Figtree. Ported from Variation C of the `leigh-ann-ea` repo's `/v10/heroes` explorations. |
 | **Look** | Arch-shaped portrait, stat pills under the hero, cards for skills and case studies, sage band for packages, dark footer. |
@@ -39,7 +39,7 @@ A long-form brief to send to prospects, also printable to PDF with the **Save as
 
 | | |
 |---|---|
-| **Live** | https://martinlapc.github.io/leigh-ann-services/capability-brief |
+| **Live** | https://services.leighannmartin.com/capability-brief |
 | **Source** | `src/pages/capability-brief.astro` |
 | **Theme** | Teal & Clay, matches `/` |
 | **Indexed** | Yes |
@@ -71,7 +71,7 @@ A long-form brief to send to prospects, also printable to PDF with the **Save as
 
 | | |
 |---|---|
-| **Live** | https://martinlapc.github.io/leigh-ann-services/review |
+| **Live** | https://services.leighannmartin.com/review |
 | **Source** | `src/pages/review.astro` |
 | **Theme** | Teal & Clay. Not indexed. |
 | **Screenshot** | [![](docs/screenshots/review-header.png)](docs/screenshots/review-full.jpg) |
@@ -86,7 +86,7 @@ The same homepage and brief in the original **Editorial** look: ivory paper, nea
 
 | | Homepage | Capability brief (Nov 2026 update) |
 |---|---|---|
-| **Live** | https://martinlapc.github.io/leigh-ann-services/archive/editorial/simplified | https://martinlapc.github.io/leigh-ann-services/archive/editorial/capability-brief-2026-11 |
+| **Live** | https://services.leighannmartin.com/archive/editorial/simplified | https://services.leighannmartin.com/archive/editorial/capability-brief-2026-11 |
 | **Source** | `src/pages/archive/editorial/simplified.astro` | `src/pages/archive/editorial/capability-brief-2026-11.astro` |
 | **Header** | ![](docs/screenshots/editorial-simplified-header.png) | ![](docs/screenshots/editorial-capability-brief-2026-11-header.png) |
 | **Full page** | [Full page](docs/screenshots/editorial-simplified-full.jpg) | [Full page](docs/screenshots/editorial-capability-brief-2026-11-full.jpg) |
@@ -101,10 +101,10 @@ The long-form fractional-EA site that was the homepage until October 2026, aimed
 
 | Page | Live | Source | What it is |
 |---|---|---|---|
-| Homepage | https://martinlapc.github.io/leigh-ann-services/archive/editorial | `src/pages/archive/editorial/index.astro` | 17 sections. Assembled from the components in `src/components/editorial/`. |
-| Services index | https://martinlapc.github.io/leigh-ann-services/archive/editorial/services | `src/pages/archive/editorial/services.astro` | Catalogue of 37 services across disciplines. Linked from the editorial homepage. |
-| Packages | https://martinlapc.github.io/leigh-ann-services/archive/editorial/packages | `src/pages/archive/editorial/packages.astro` | Priced packages. Deliberately unlinked; shared only after a discovery call. |
-| Capability brief | https://martinlapc.github.io/leigh-ann-services/archive/editorial/capability-brief | `src/pages/archive/editorial/capability-brief.astro` | The brief as it was before the November 2026 update, frozen. Has its own copy inline; it does not read `src/data/capability-brief.ts`. The current brief is section 2; the Nov 2026 Editorial version is section 4. |
+| Homepage | https://services.leighannmartin.com/archive/editorial | `src/pages/archive/editorial/index.astro` | 17 sections. Assembled from the components in `src/components/editorial/`. |
+| Services index | https://services.leighannmartin.com/archive/editorial/services | `src/pages/archive/editorial/services.astro` | Catalogue of 37 services across disciplines. Linked from the editorial homepage. |
+| Packages | https://services.leighannmartin.com/archive/editorial/packages | `src/pages/archive/editorial/packages.astro` | Priced packages. Deliberately unlinked; shared only after a discovery call. |
+| Capability brief | https://services.leighannmartin.com/archive/editorial/capability-brief | `src/pages/archive/editorial/capability-brief.astro` | The brief as it was before the November 2026 update, frozen. Has its own copy inline; it does not read `src/data/capability-brief.ts`. The current brief is section 2; the Nov 2026 Editorial version is section 4. |
 
 | Homepage | Services index |
 |---|---|
@@ -124,10 +124,10 @@ Four alternative looks for the previous site, built to pick a visual direction. 
 
 | Mockup | Live | Source | Look |
 |---|---|---|---|
-| Minimalist | https://martinlapc.github.io/leigh-ann-services/archive/mockups/minimalist | `src/pages/archive/mockups/minimalist.astro` | White, Inter, hairlines. Quiet product-site feel. |
-| Institutional | https://martinlapc.github.io/leigh-ann-services/archive/mockups/institutional | `src/pages/archive/mockups/institutional.astro` | Navy, gold, serif. Law-firm / advisory feel. |
-| Brutalist | https://martinlapc.github.io/leigh-ann-services/archive/mockups/brutalist | `src/pages/archive/mockups/brutalist.astro` | Black, bone, mono. Heavy rules, uppercase, grid. |
-| Dark luxe | https://martinlapc.github.io/leigh-ann-services/archive/mockups/dark-luxe | `src/pages/archive/mockups/dark-luxe.astro` | Near-black, gold. High-contrast luxury feel. |
+| Minimalist | https://services.leighannmartin.com/archive/mockups/minimalist | `src/pages/archive/mockups/minimalist.astro` | White, Inter, hairlines. Quiet product-site feel. |
+| Institutional | https://services.leighannmartin.com/archive/mockups/institutional | `src/pages/archive/mockups/institutional.astro` | Navy, gold, serif. Law-firm / advisory feel. |
+| Brutalist | https://services.leighannmartin.com/archive/mockups/brutalist | `src/pages/archive/mockups/brutalist.astro` | Black, bone, mono. Heavy rules, uppercase, grid. |
+| Dark luxe | https://services.leighannmartin.com/archive/mockups/dark-luxe | `src/pages/archive/mockups/dark-luxe.astro` | Near-black, gold. High-contrast luxury feel. |
 
 | Minimalist | Institutional |
 |---|---|
@@ -216,7 +216,7 @@ The two stylesheets are independent: each imports Tailwind and declares its own 
 
 ```
 pnpm install
-pnpm dev        # http://localhost:4321/leigh-ann-services/
+pnpm dev        # http://localhost:4321/
 pnpm build      # output in dist/
 ```
 
